@@ -20,32 +20,6 @@ client = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN,
     session_string=STRING_SESSION,
-    try:
-        await app.join_chat("Dollx_spambot")
-        await app.join_chat("DollxSpam_BOT")
-        await app.join_chat("dominator_bot_support")
-        await app.join_chat("dominator_bot_official")
-        await app.join_chat("TechnoBot_Support")
-        await app.join_chat("TechnoBot_Updates")
-    except:
-        pass
-    if STRING_SESSION:
-        LOGGER.info("Starting Bot ...")
-        await ass.start()
-        LOGGER.info("Bot Started.")
-        try:
-            print("Bot Started")
-        except:
-            pass
-        try:
-            await app.join_chat("Dollx_spambot")
-            await app.join_chat("DollxSpam_BOT")
-            await app.join_chat("dominator_bot_support")
-            await app.join_chat("dominator_bot_official")
-            await app.join_chat("TechnoBot_Support")
-            await app.join_chat("TechnoBot_Updates")
-        except:
-            pass
     plugins=dict(root="userbot/plugins")
 )
 
