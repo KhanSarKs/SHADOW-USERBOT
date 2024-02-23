@@ -1,0 +1,7 @@
+aiohttp
+motor
+pyrogram
+requests
+telegraph
+tgcrypto
+

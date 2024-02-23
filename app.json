@@ -1,0 +1,39 @@
+{
+    "name": "Romeo-Userbot",
+    "description": "An first Telegram Userbot with multi Clients for Spamming or Mass.",
+    "keywords": ["pyrogram", "userbot"],
+    "repository": "https://github.com/RRomeo-RJ/Romeo-UserBot",
+  "stack": "container",
+    "env": {
+        "STRING_SESSION": {
+            "description": "fill with the telethon session string from @RJssgBot",
+            "required": true
+        },
+        "SUDO_USERS": {
+            "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
+            "required": true,
+            "value": "1253258650"
+        },
+        "OWNER_ID": {
+            "description": "Fill there your I'd go to @MissRose_bot pm and type /id",
+            "required": true,
+            "value": "1253258650"
+        },
+        "BOT_TOKEN": {
+            "description": "fill with your bot token get from @BotFather on telegram",
+            "required": true,
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Fill there your API_ID",
+            "required": true,
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Fill there your API_HASH",
+            "required": true,
+            "value": "" 
+        }
+
+    }
+  }
