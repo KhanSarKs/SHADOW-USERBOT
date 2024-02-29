@@ -56,4 +56,4 @@ ________________________________
 `.tm` - .tm (reply to any media) - to create teligraph link                
 """
     await message.delete()
-    await message.reply_photo(photo=C, caption=R)
+    await message.reply_photo(photo=C, caption=CD)
