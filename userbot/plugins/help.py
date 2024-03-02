@@ -9,7 +9,7 @@ CD ="🇸ʜᴀᴅᴏᴡ༒︎UsᴇʀBᴏᴛ♕︎💥"
 @Client.on_message(filters.command(["help"], ".") & (filters.me | filters.user(SUDO_USER)))
 async def help(client: Client, message: Message):
     C = "https://telegra.ph/file/57d6eaccbc2ab0d477e8c.jpg"
-    CD = """
+    R = """
    🇸ʜᴀᴅᴏᴡ༒︎UsᴇʀBᴏᴛ♕︎💥
 ________________________________
            BOT
